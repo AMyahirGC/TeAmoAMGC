@@ -1,0 +1,26 @@
+@import url();
+
+* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+    font-size: 33vw;
+    color: red;
+    z-index: -10;
+}
+.container .contenido {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+}
+.container .contenido h1 {
+    font-size: 50px;
+}
+.container .contenido p {
+    font-size: 22px;
+}
